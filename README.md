@@ -7,15 +7,26 @@
 * FollowUpDat
 
 # RVPedDat
-This is a .txt formatted data set that provides the summarized familial data discussed in "Simulating Pedigrees Ascertained for Multiple Disease Affected Relatives."
+This is a .csv formatted data set that provides the simulated pedigrees described in *Results: Applications.*
 
 The variables included in this data set are described as follows:
 1. FamID: family identification number
 2. ID: individual identification number
-3. GRR: genetic relative-risk of disease
-4. RVstatus: rare-variant status
-5. onsetAge: age of disease-onset
-6. aveIBD: average of the pair-wise IBD probabilities for the disease-affected relatives in a single pedigree.
+3. sex: gender identification; if male sex = 0, if female sex = 1
+4. dadID: identification number of father
+5. momID: identification number of mother
+6. affected: disease-affection status
+7. DA1: paternally inherited allele at the assumed disease locus: DA1 = 1 if rare variant is present, and 0 otherwise
+8. DA2: maternally inherited allele at the assumed disease locus: DA2 = 1 if rare variant is present, and 0 otherwise 
+9. birthYr: the individual's birth year
+10. onsetYr: the individual's year of disease onset, when applicable, otherwise NA
+11. deathYr: the individual's year of death, when applicable, otherwise NA
+12. RR: the individual's relative-risk of disease
+13. available: availibility status
+14. Gen: the individual's generation number relative to the eldest founder.
+For the eldest founder Gen = 1, for his or her offspring Gen = 2, etc.
+15. proband: proband status
+
    
 # PopRVSegDat
 This is a .txt fomatted data set that provides the summarized familial rare-variant segregation data discussed in *Results: Applications: Proportion of Ascertained Pedigrees Segregating a Causal Variant*.
