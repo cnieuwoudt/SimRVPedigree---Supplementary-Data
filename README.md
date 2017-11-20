@@ -2,14 +2,22 @@
 ### Data Sets From "Simulating Pedigrees Ascertained for Multiple Disease Affected Relatives"
 
 ## Data Sets
-* SegregateRVPeds
-* PopulationPedData
+* RVPedDat
+* PopRVSegDat
 * FollowUpDat
 
-# SegregateRVPeds
-This is a .txt formatted data set that includes
+# RVPedDat
+This is a .txt formatted data set that provides the summarized familial data discussed in "Simulating Pedigrees Ascertained for Multiple Disease Affected Relatives."
 
-# PopulationPedData
+The variables included in this data set are described as follows:
+1. FamID: family identification number
+2. ID: individual identification number
+3. GRR: genetic relative-risk of disease
+4. RVstatus: rare-variant status
+5. onsetAge: age of disease-onset
+6. aveIBD: average of the pair-wise IBD probabilities for the disease-affected relatives in a single pedigree.
+   
+# PopRVSegDat
 This is a .txt fomatted data set that provides the summarized familial rare-variant segregation data discussed in *Results: Applications: Proportion of Ascertained Pedigrees Segregating a Causal Variant*.
 
 The variables included in this data set are described as follows:
@@ -24,6 +32,8 @@ The variables included in this data set are described as follows:
 9. n_5: number of pedigrees ascertained with 5 or more disease-affected relatives
 10 g_5: number of pedigrees segregating a causal varaint with 5 or more disease-affected relatives
 
-# FollowUPDat
+# FollowUpDat
 This is a .txt fomatted data set that includes 
- 
+
+# References
+Simulating Pedigrees Ascertained for Multiple Disease Affected Relatives
