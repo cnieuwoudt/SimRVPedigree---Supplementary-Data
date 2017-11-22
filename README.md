@@ -10,22 +10,23 @@
 This is a .csv formatted data set that provides the simulated pedigrees described in *Results: Applications.*
 
 The variables included in this data set are described as follows:
-1. FamID: family identification number
-2. ID: individual identification number
-3. sex: gender identification; if male sex = 0, if female sex = 1
-4. dadID: identification number of father
-5. momID: identification number of mother
-6. affected: disease-affection status
-7. DA1: paternally inherited allele at the assumed disease locus: DA1 = 1 if rare variant is present, and 0 otherwise
-8. DA2: maternally inherited allele at the assumed disease locus: DA2 = 1 if rare variant is present, and 0 otherwise 
-9. birthYr: the individual's birth year
-10. onsetYr: the individual's year of disease onset, when applicable, otherwise NA
-11. deathYr: the individual's year of death, when applicable, otherwise NA
-12. RR: the individual's relative-risk of disease
-13. available: availability status
-14. Gen: the individual's generation number relative to the eldest founder.
-For the eldest founder Gen = 1, for his or her offspring Gen = 2, etc.
-15. proband: proband status
+Variable | Description
+----------- | -------------
+FamID | family identification number
+ID | individual identification number
+Sex | gender identification; if male sex = 0, if female sex = 1
+dadID | identification number of father
+momID | identification number of mother
+affected | disease-affection status
+DA1 | paternally inherited allele at the assumed disease locus: DA1 = 1 if rare variant is present, and 0 otherwise
+DA2 | maternally inherited allele at the assumed disease locus: DA2 = 1 if rare variant is present, and 0 otherwise 
+birthYr | the individual's birth year
+onsetYr | the individual's year of disease onset, when applicable, otherwise NA
+deathYr | the individual's year of death, when applicable, otherwise NA
+RR | the individual's relative-risk of disease
+available | availability status
+Gen | the individual's generation number relative to the eldest founder.  For the eldest founder Gen = 1, for his or her offspring Gen = 2, etc.
+proband | proband status
 
    
 # PopRVSegDat
