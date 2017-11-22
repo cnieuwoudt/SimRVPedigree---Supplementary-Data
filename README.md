@@ -35,7 +35,7 @@ This is a .csv formatted data set that provides the summarized familial rare-var
 
 The variables included in this data set are described as follows:
 Variable | Description
--------- | -------------
+-------- | -----------
 GRR | genetic relative-risk for carriers of the rare causal variant.
 p_c | carrier probability of the causal variant
 n_2 | number of pedigrees ascertained with 2 or more disease-affected relatives
