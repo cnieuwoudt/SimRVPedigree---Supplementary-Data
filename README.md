@@ -34,6 +34,7 @@ proband | proband status
 This is a .csv formatted data set that provides the summarized familial rare-variant segregation data discussed in *Results: Applications: Proportion of Ascertained Pedigrees Segregating a Causal Variant*.
 
 The variables included in this data set are described as follows:
+
 Variable | Description
 -------- | -----------
 GRR | genetic relative-risk for carriers of the rare causal variant.
