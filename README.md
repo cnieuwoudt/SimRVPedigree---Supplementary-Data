@@ -10,8 +10,9 @@
 This is a .csv formatted data set that provides the simulated pedigrees described in *Results: Applications.*
 
 The variables included in this data set are described as follows:
+
 Variable | Description
------------ | -------------
+-------- | -------------
 FamID | family identification number
 ID | individual identification number
 Sex | gender identification; if male sex = 0, if female sex = 1
@@ -28,6 +29,11 @@ available | availability status
 Gen | the individual's generation number relative to the eldest founder.  For the eldest founder Gen = 1, for his or her offspring Gen = 2, etc.
 proband | proband status
 
+
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
    
 # PopRVSegDat
 This is a .csv formatted data set that provides the summarized familial rare-variant segregation data discussed in *Results: Applications: Proportion of Ascertained Pedigrees Segregating a Causal Variant*.
