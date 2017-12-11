@@ -71,6 +71,3 @@ available | availability status
 Gen | the individual's generation number relative to the eldest founder.  For the eldest founder Gen = 1, for his or her offspring Gen = 2, etc.
 proband | proband status
 
-
-# References
-Simulating Pedigrees Ascertained for Multiple Disease-Affected Relatives
