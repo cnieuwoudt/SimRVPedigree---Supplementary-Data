@@ -1,4 +1,4 @@
-# SimRVPedigree---Supplementary-Data
+SS# SimRVPedigree---Supplementary-Data
 ### Data Sets From "Simulating Pedigrees Ascertained for Multiple Disease Affected Relatives"
 
 ## Data Sets
@@ -47,6 +47,8 @@ n_4 | number of pedigrees ascertained with 4 or more disease-affected relatives
 g_4 | number of pedigrees segregating a causal variant with 4 or more disease-affected relatives
 n_5 | number of pedigrees ascertained with 5 or more disease-affected relatives
 g_5 | number of pedigrees segregating a causal variant with 5 or more disease-affected relatives
+n_6 | number of pedigrees ascertained with 6 or more disease-affected relatives
+g_6 | number of pedigrees segregating a causal variant with 6 or more disease-affected relatives
 
 # FollowUpDat
 This is a .csv formatted data set that provides the simulated pedigrees described in Supplement to Simulating Pedigrees Ascertained for Multiple Disease-Affected Relatives.
